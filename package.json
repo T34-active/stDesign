@@ -4,15 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "pnpm --filter lylaa-ui build",
+    "build": "pnpm --filter stDesign build",
     "dev": "pnpm run --filter site dev",
     "docs:build": "pnpm run --filter site build",
-    "pub": "pnpm build && pnpm publish --filter lylaa-ui",
+    "pub": "pnpm build && pnpm publish --filter stDesign",
     "lint": "eslint --ext .js,.vue,.ts --fix --quiet ./",
     "prepare": "husky install",
-    "test": "pnpm run --filter lylaa-ui test",
-    "coverage": "pnpm run --filter lylaa-ui coverage",
-    "report": "pnpm run --filter lylaa-ui report"
+    "test": "pnpm run --filter stDesign test",
+    "coverage": "pnpm run --filter stDesign coverage",
+    "report": "pnpm run --filter stDesign report"
   },
   "keywords": [],
   "author": "",

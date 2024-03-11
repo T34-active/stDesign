@@ -90,7 +90,7 @@ importers:
 
   packages/site:
     dependencies:
-      lylaa-ui:
+      stdesign:
         specifier: workspace:*
         version: link:../components
     devDependencies:

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { UiTooltip } from "lylaa-ui";
+import { UiTooltip } from "stdesign";
 const change = (v) => {
   console.log(4, v);
 };
@@ -7,7 +7,7 @@ const change = (v) => {
 
 <template>
   <ui-tooltip title="hello lyla ui" @visible-change="change">
-    <div id="hello" class="hello-class">hello Lylaa ui</div>
+    <div id="hello" class="hello-class">hello stDesign</div>
   </ui-tooltip>
 </template>
 
