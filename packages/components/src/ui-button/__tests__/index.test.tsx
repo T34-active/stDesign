@@ -6,11 +6,11 @@ describe("Button", () => {
   it("按钮渲染", () => {
     const wrapper = mount({
       render() {
-        return <UiButton>hello stDesign</UiButton>;
+        return <UiButton>hello Lylaa ui</UiButton>;
       },
     });
     expect(wrapper.html()).toMatchSnapshot();
-    expect(wrapper.text()).toBe("hello stDesign");
+    expect(wrapper.text()).toBe("hello Lylaa ui");
   });
   it("按钮点击", () => {
     const onClick = vi.fn();

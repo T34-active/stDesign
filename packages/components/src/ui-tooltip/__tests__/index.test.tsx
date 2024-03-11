@@ -1,4 +1,4 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 import { mount } from "@vue/test-utils";
 import UiTooltip from "../UiTooltip.vue";
 
@@ -21,9 +21,9 @@ describe("Button", () => {
     const wrapper = mount({
       render() {
         return (
-          <UiTooltip>
+          <UiTooltip title="hello lyla ui">
             <div id="hello" class="hello-class">
-              hello stDesign
+              hello Lylaa ui
             </div>
           </UiTooltip>
         );

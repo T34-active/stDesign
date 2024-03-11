@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { UiButton } from "stdesign";
+import { UiButton } from "lylaa-ui";
 </script>
 
 <template>
