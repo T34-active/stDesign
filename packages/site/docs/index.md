@@ -1,17 +1,17 @@
 ---
 layout: home
 
-title: Test UI
+title: stDesign UI
 titleTemplate: Vue 基础组件库
 
 hero:
-  name: Test UI
+  name: stDesign UI
   text: Vue 基础组件库
   # tagline: Enim dolor mollit cupidatat commodo fugiat minim eiusmod in.
   actions:
     - theme: brand
       text: 快速开始
-      link: /guide/what-is-vitepress
+      link: /components/Button
     - theme: alt
       text: 组件库
       link: /components/Button

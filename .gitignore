@@ -10,6 +10,7 @@ lerna-debug.log*
 coverage
 html
 node_modules
+dist
 dist-ssr
 *.local
 
@@ -24,4 +25,4 @@ dist-ssr
 *.sw?
 
 packages/site/docs/.vitepress/cache
-
+packages/site/docs/.vitepress/dist

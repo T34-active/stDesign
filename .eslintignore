@@ -1,3 +1,4 @@
 **.d.ts
 dist
-node_modules
+node_modules/packages/site/docs/.vitepress/dist/
+!.eslintrc.js

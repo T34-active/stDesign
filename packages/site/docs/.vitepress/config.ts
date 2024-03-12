@@ -1,4 +1,4 @@
-import { version } from "../../package.json";
+import { version } from "../../../components/package.json";
 import { defineConfig } from "vitepress";
 import { vitePluginVitepressDemo } from "vite-plugin-vitepress-demo";
 
@@ -17,19 +17,19 @@ export default defineConfig({
       },
     },
   },
-  appearance: false, // 夜间模式切换
-  title: "TEST UI",
+  appearance: false, // 夜间 模式切换
+  title: "stDesign UI",
   description: "Vue基础组件库",
   lang: "zh-CN",
   lastUpdated: true,
   head: [["link", { rel: "icon", href: "/favico.ico" }]],
   themeConfig: {
-    siteTitle: "TEST UI",
+    siteTitle: "stDesign UI",
     logo: "/logo.png",
     nav: [
       { text: "首页", link: "/" },
       { text: "指南", link: "/guide/getting-started" },
-      { text: "组件", link: "/components/Button.html" },
+      { text: "组件", link: "/components/Button" },
       {
         text: version,
         items: [
@@ -47,6 +47,7 @@ export default defineConfig({
           items: [
             { text: "Button 按钮", link: "/components/Button" },
             { text: "Tooltip 文字提示", link: "/components/Tooltip" },
+            { text: "Notes 文字提示", link: "/components/Notes" },
           ],
         },
       ],

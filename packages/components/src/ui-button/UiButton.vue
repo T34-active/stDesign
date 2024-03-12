@@ -1,9 +1,4 @@
 <script setup lang="ts">
-import { Button } from "ant-design-vue";
-import { SearchOutlined } from "@ant-design/icons-vue";
-import { usePrefixCls } from "../composables/useUtils";
-import "ant-design-vue/dist/antd.css";
-
 interface ButtonProps {
   disabled?: boolean;
 }
@@ -15,15 +10,52 @@ const emits = defineEmits(["click"]);
 </script>
 
 <template>
-  <Button
-    danger
-    :prefix-cls="usePrefixCls('btn')"
-    :disabled="disabled"
-    @click="emits('click')"
-  >
-    <template #icon><SearchOutlined /></template>
+  <button class="btn success" :disabled="disabled" @click="emits('click')">
     <slot></slot>
-  </Button>
+  </button>
 </template>
 
-<style lang="less"></style>
+<style lang="less" scoped>
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  cursor: pointer;
+}
+
+.success {
+  background-color: #04aa6d;
+} /* Green */
+.success:hover {
+  background-color: #46a049;
+}
+
+.primary {
+  background-color: #2196f3;
+} /* Blue */
+.primary:hover {
+  background: #0b7dda;
+}
+
+.warning {
+  background-color: #ff9800;
+} /* Orange */
+.warning:hover {
+  background: #e68a00;
+}
+
+.danger {
+  background-color: #f44336;
+} /* Red */
+.danger:hover {
+  background: #da190b;
+}
+
+.default {
+  background-color: #e7e7e7;
+  color: black;
+} /* Gray */
+.default:hover {
+  background: #ddd;
+}
+</style>

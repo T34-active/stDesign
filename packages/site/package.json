@@ -10,7 +10,7 @@
     "serve": "vitepress serve docs"
   },
   "dependencies": {
-    "lylaa-ui": "workspace:*"
+    "stdesign-ui": "workspace:*"
   },
   "devDependencies": {
     "vite-plugin-vitepress-demo": "2.0.0-alpha.8",

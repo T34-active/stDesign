@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { UiTooltip } from "lylaa-ui";
+import { UiTooltip } from "stdesign-ui";
 const change = (v) => {
   console.log(4, v);
 };
