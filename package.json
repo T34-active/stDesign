@@ -9,7 +9,6 @@
     "docs:build": "pnpm run --filter site build",
     "pub": "pnpm build && pnpm publish --filter stDesign-ui",
     "lint": "eslint --ext .js,.vue,.ts --fix --quiet ./",
-    "prepare": "husky install",
     "test": "pnpm run --filter stDesign-ui test",
     "coverage": "pnpm run --filter stDesign-ui coverage",
     "report": "pnpm run --filter stDesign-ui report"
