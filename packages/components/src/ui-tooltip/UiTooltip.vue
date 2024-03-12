@@ -13,4 +13,4 @@ import { usePrefixCls } from "../composables/useUtils";
   </component>
 </template>
 
-<style lang="less"></style>
+<style lang="less" scoped></style>

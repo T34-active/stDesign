@@ -1,4 +1,4 @@
 import { ExtractPropTypes } from "vue";
 import UiNodes from "./UiNodes.vue";
 
-export type UiNodesProps = ExtractPropTypes<typeof UiNodes>;
+export type UiButtonProps = ExtractPropTypes<typeof UiNodes>;
