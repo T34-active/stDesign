@@ -25,4 +25,3 @@ dist-ssr
 *.sw?
 
 packages/site/docs/.vitepress/cache
-packages/site/docs/.vitepress/dist
