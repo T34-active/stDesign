@@ -1,6 +1,6 @@
 // import { describe, expect, it, vi } from "vitest";
 // import { mount } from "@vue/test-utils";
-// import UiTooltip from "../UiNodes.vue";
+// import UiTooltip from "../index.vue";
 //
 // // const waitRAF = () => new Promise((resolve) => requestAnimationFrame(resolve));
 // // beforeEach(() => {
@@ -23,7 +23,7 @@
 //         return (
 //           <UiTooltip title="hello lyla ui">
 //             <div id="hello" class="hello-class">
-//               hello Lylaa ui
+//               hello stDesign-ui
 //             </div>
 //           </UiTooltip>
 //         );

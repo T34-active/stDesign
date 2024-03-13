@@ -1,16 +1,16 @@
 import { describe, expect, it, vi } from "vitest";
 import { mount } from "@vue/test-utils";
-import UiButton from "../UiButton.vue";
+import UiButton from "../index.vue";
 
 describe("Button", () => {
   it("按钮渲染", () => {
     const wrapper = mount({
       render() {
-        return <UiButton>hello Lylaa ui</UiButton>;
+        return <UiButton>hello stDesign-ui</UiButton>;
       },
     });
     expect(wrapper.html()).toMatchSnapshot();
-    expect(wrapper.text()).toBe("hello Lylaa ui");
+    expect(wrapper.text()).toBe("hello stDesign-ui");
   });
   it("按钮点击", () => {
     const onClick = vi.fn();
@@ -19,7 +19,6 @@ describe("Button", () => {
         return <UiButton onClick={onClick}>按钮点击</UiButton>;
       },
     });
-
     wrapper.trigger("click");
     expect(onClick).toHaveBeenCalledWith();
   });
@@ -34,7 +33,6 @@ describe("Button", () => {
         );
       },
     });
-
     expect(wrapper.html()).toMatchSnapshot();
     wrapper.trigger("click");
     expect(onClick).not.toHaveBeenCalledWith();

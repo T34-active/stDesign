@@ -9,7 +9,7 @@ defineProps({
     type: String,
     default: "primary",
   },
-});
+})
 </script>
 <style lang="less" scoped>
 .nodes {

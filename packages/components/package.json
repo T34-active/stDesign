@@ -33,6 +33,7 @@
     "url": "https://github.com/T34-active/stDesign/issues"
   },
   "dependencies": {
+    "@floating-ui/vue": "^1.0.6",
     "@vitest/coverage-v8": "^0.34.2",
     "@vitest/ui": "^0.34.3",
     "@vue/test-utils": "^2.4.1",

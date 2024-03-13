@@ -1,21 +1,21 @@
 <script setup lang="ts">
-import { UiNotes } from "stdesign-ui";
+import { stNotes } from "stdesign-ui";
 </script>
 
 <template>
-  <ui-notes>
+  <st-notes>
     <div id="hello" class="hello-class">hello stDesign-ui</div>
-  </ui-notes>
-  <ui-notes type="primary">
+  </st-notes>
+  <st-notes type="primary">
     <div id="hello" class="hello-class">hello stDesign-ui</div>
-  </ui-notes>
-  <ui-notes type="success">
+  </st-notes>
+  <st-notes type="success">
     <div id="hello" class="hello-class">hello stDesign-ui</div>
-  </ui-notes>
-  <ui-notes type="warning">
+  </st-notes>
+  <st-notes type="warning">
     <div id="hello" class="hello-class">hello stDesign-ui</div>
-  </ui-notes>
-  <ui-notes type="danger">
+  </st-notes>
+  <st-notes type="danger">
     <div id="hello" class="hello-class">hello stDesign-ui</div>
-  </ui-notes>
+  </st-notes>
 </template>

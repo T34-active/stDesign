@@ -1,7 +1,6 @@
 import { version } from "../../../components/package.json";
 import { defineConfig } from "vitepress";
-import { vitePluginVitepressDemo } from "vite-plugin-vitepress-demo";
-
+import vitePluginVitepressDemo from "vite-plugin-vitepress-demo";
 export default defineConfig({
   vite: {
     plugins: [
@@ -24,7 +23,7 @@ export default defineConfig({
   lastUpdated: true,
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   markdown: {
-    lineNumbers: false // 是否显示行数，默认false
+    lineNumbers: true // 是否显示行数，默认false
   },
   themeConfig: {
     siteTitle: "stDesign UI",
@@ -59,7 +58,6 @@ export default defineConfig({
           text: "基础组件",
           items: [
             { text: "Button 按钮", link: "/components/Button" },
-            { text: "Tooltip 文字提示", link: "/components/Tooltip" },
             { text: "Notes 文字提示", link: "/components/Notes" },
           ],
         },

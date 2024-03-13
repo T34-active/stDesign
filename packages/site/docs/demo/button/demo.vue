@@ -1,12 +1,11 @@
 <script setup lang="ts">
-import { UiButton } from "stdesign-ui";
+import { stButton } from "stdesign-ui";
 </script>
 
 <template>
-  <ui-button type="primary">primary</ui-button>
-  <ui-button type="success">success</ui-button>
-  <ui-button type="danger">danger</ui-button>
-  <ui-button type="warning">warning</ui-button>
+  <st-button type="primary" :disabled="true">primary</st-button>
+  <st-button type="success">success</st-button>
+  <st-button type="danger">danger</st-button>
+  <st-button type="warning">warning</st-button>
+  <st-button type="default">default</st-button>
 </template>
-
-<style lang="less" scoped></style>

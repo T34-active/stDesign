@@ -12,6 +12,6 @@
 ### 按钮类型
 
 主按钮、次按钮、普通按钮、图标按钮，不同的类型可以用来区别按钮的重要程度。
+<demo src="../demo/button/demo.vue" desc="使用 `type`、`plain`、`round` 和 `circle` 来定义按钮的样式。"></demo>
 
-<demo src="../demo/button/demo.vue" title="标题" desc="描述"></demo>
 

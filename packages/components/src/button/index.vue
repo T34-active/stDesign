@@ -10,7 +10,7 @@ withDefaults(defineProps<ButtonProps>(), {
 
 /**
  * 定义组件发出的事件类型。
- * @returns {Function} 返回一个函数，用于校验和触发组件所发射的事件。
+ * @returns {Function} 返回一个函数，用于校验和触发组件的事件。
  */
 const emits = defineEmits(["click"]);
 </script>
@@ -29,28 +29,31 @@ const emits = defineEmits(["click"]);
 .btn {
   border: none;
   color: white;
-  padding: 14px 28px;
+  padding: 10px 24px;
   cursor: pointer;
   border-radius: 8px;
+  font-size: 18px;
 }
-
 .success {
   background-color: #04aa6d;
-} /* Green */
+}
+/* Green */
 .success:hover {
   background-color: #46a049;
 }
 
 .primary {
   background-color: #2196f3;
-} /* Blue */
+}
+/* Blue */
 .primary:hover {
   background: #0b7dda;
 }
 
 .warning {
   background-color: #ff9800;
-} /* Orange */
+}
+/* Orange */
 .warning:hover {
   background: #e68a00;
 }

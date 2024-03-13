@@ -1,15 +1,12 @@
 import type { App } from "vue";
-import UiButton from "./ui-button/UiButton.vue";
-import UiTooltip from "./ui-tooltip/UiTooltip.vue";
-import UiNotes from "./ui-nodes/UiNodes.vue";
-// import "./style/index.less";
-
+import stButton from "./button/index.vue";
+import stNotes from "./nodes/index.vue";
+import "../assets/css/index.less";
 export default {
   install(app: App) {
-    app.component("UiButton", UiButton);
-    app.component("UiTooltip", UiTooltip);
-    app.component("UiNotes", UiNotes);
+    app.component("StButton", stButton);
+    app.component("StNotes", stNotes);
   },
 };
 
-export { UiButton, UiTooltip, UiNotes };
+export { stButton, stNotes };
