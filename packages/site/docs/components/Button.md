@@ -15,6 +15,3 @@
 
 <demo src="../demo/button/demo.vue" title="标题" desc="描述"></demo>
 
-### 属性
-
-继承于[Antd-vue Button 组件 API](https://www.antdv.com/components/button-cn#API)

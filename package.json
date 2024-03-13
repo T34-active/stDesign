@@ -13,7 +13,15 @@
     "coverage": "pnpm run --filter stDesign-ui coverage",
     "report": "pnpm run --filter stDesign-ui report"
   },
-  "keywords": [],
+  "keywords": [
+    "Vue3",
+    "TS",
+    "Vite",
+    "Less",
+    "UI",
+    "Components",
+    "Tools"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {

@@ -14,7 +14,15 @@
     "coverage": "vitest run --coverage",
     "report": "vitest --ui"
   },
-  "keywords": [],
+  "keywords": [
+    "Vue3",
+    "TS",
+    "Vite",
+    "Less",
+    "UI",
+    "Components",
+    "Tools"
+  ],
   "author": "t34-active",
   "license": "ISC",
   "repository": {

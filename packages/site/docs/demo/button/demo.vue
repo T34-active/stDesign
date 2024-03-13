@@ -3,7 +3,10 @@ import { UiButton } from "stdesign-ui";
 </script>
 
 <template>
-  <ui-button>主按钮</ui-button>
+  <ui-button type="primary">primary</ui-button>
+  <ui-button type="success">success</ui-button>
+  <ui-button type="danger">danger</ui-button>
+  <ui-button type="warning">warning</ui-button>
 </template>
 
 <style lang="less" scoped></style>
