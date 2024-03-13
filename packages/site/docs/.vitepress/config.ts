@@ -22,10 +22,23 @@ export default defineConfig({
   description: "Vue基础组件库",
   lang: "zh-CN",
   lastUpdated: true,
-  head: [["link", { rel: "icon", href: "/favico.ico" }]],
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  markdown: {
+    lineNumbers: false // 是否显示行数，默认false
+  },
   themeConfig: {
     siteTitle: "stDesign UI",
     logo: "/logo.png",
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/T34-active/stDesign' }
+      // 自定义icon
+      // {
+      //   icon: {
+      //     svg: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Dribbble</title><path d="M12...6.38z"/></svg>'
+      //   },
+      //   link: 'https://www.npmjs.com/package/vue-amazing-ui'
+      // }
+    ],
     nav: [
       { text: "首页", link: "/" },
       { text: "指南", link: "/guide/getting-started" },
