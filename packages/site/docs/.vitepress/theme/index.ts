@@ -5,7 +5,5 @@ import "./index.css";
 
 export default {
   ...DefaultTheme,
-  enhanceApp({ app }) {
-    app.component("Demo", AntdTheme).use(Antd);
-  },
+  enhanceApp({ app }) {},
 } as Theme;
