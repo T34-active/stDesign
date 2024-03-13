@@ -9,6 +9,7 @@
     "src"
   ],
   "scripts": {
+    "dev": "vite --port 8888",
     "build": "vite build",
     "test": "vitest",
     "coverage": "vitest run --coverage",

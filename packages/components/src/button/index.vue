@@ -1,8 +1,5 @@
 <script setup lang="ts">
-interface ButtonProps {
-  disabled?: boolean;
-  type: string;
-}
+import { type ButtonProps } from "./type.ts";
 withDefaults(defineProps<ButtonProps>(), {
   disabled: false,
   type: "primary",
@@ -18,6 +15,7 @@ const emits = defineEmits(["click"]);
 <template>
   <button
     :class="{ btn: true, [type]: true }"
+    class="bg-teal-50"
     :disabled="disabled"
     @click="emits('click')"
   >
@@ -26,50 +24,61 @@ const emits = defineEmits(["click"]);
 </template>
 
 <style lang="less" scoped>
-.btn {
-  border: none;
-  color: white;
-  padding: 10px 24px;
-  cursor: pointer;
-  border-radius: 8px;
-  font-size: 18px;
-}
-.success {
-  background-color: #04aa6d;
-}
-/* Green */
-.success:hover {
-  background-color: #46a049;
-}
-
-.primary {
-  background-color: #2196f3;
-}
-/* Blue */
-.primary:hover {
-  background: #0b7dda;
-}
-
-.warning {
-  background-color: #ff9800;
-}
-/* Orange */
-.warning:hover {
-  background: #e68a00;
-}
-
-.danger {
-  background-color: #f44336;
-} /* Red */
-.danger:hover {
-  background: #da190b;
-}
-
-.default {
-  background-color: #e7e7e7;
-  color: black;
-} /* Gray */
-.default:hover {
-  background: #ddd;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+//.btn {
+//  border: none;
+//  color: white;
+//  padding: 10px 24px;
+//  cursor: pointer;
+//  border-radius: 8px;
+//  font-size: 18px;
+//}
+//
+//.success {
+//  background-color: #04aa6d;
+//}
+//
+///* Green */
+//.success:hover {
+//  background-color: #46a049;
+//}
+//
+//.primary {
+//  background-color: #2196f3;
+//}
+//
+///* Blue */
+//.primary:hover {
+//  background: #0b7dda;
+//}
+//
+//.warning {
+//  background-color: #ff9800;
+//}
+//
+///* Orange */
+//.warning:hover {
+//  background: #e68a00;
+//}
+//
+//.danger {
+//  background-color: #f44336;
+//}
+//
+///* Red */
+//.danger:hover {
+//  background: #da190b;
+//}
+//
+//.default {
+//  background-color: #e7e7e7;
+//  color: black;
+//}
+//
+///* Gray */
+//.default:hover {
+//  background: #ddd;
+//}
 </style>
